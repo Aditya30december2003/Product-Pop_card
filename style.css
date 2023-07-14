@@ -1,0 +1,117 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-transform:capitalize;
+}
+body{
+    background-color: rgb(219, 217, 217);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 3rem 2rem;
+}
+
+.heading{
+    font-size: 2.5rem;
+    color: rgb(58, 58, 58);
+    margin-left: 35%;
+    text-transform: uppercase;
+}
+
+.product-container{
+    margin-left: 7%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:350px 350px 350px;
+    grid-template-rows: 370px 370px;
+}
+
+.product{
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    margin: 20px 20px;
+    height: 350px;
+}
+
+.product:hover{
+    /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
+    transform: scale(1.1); */
+    border: 1.2px solid black;
+}
+
+
+
+.price{
+    font-size: 20px;
+}
+.fas{
+    color: rgb(3, 109, 3);
+}
+.preview{
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    height: 550px;
+    width: 310px;
+    display: none;
+    margin-left: 40%;
+}
+
+.preview p{
+    font-size: 13px;
+    opacity: 0.7;
+    width: 250px;
+    margin-left: 40px;
+
+}
+.preview span{
+    opacity: 0.5;
+}
+.preview h4{
+    color: rgb(31, 89, 68);
+    font-size: 30px;
+    margin-top: 0px;
+}
+button{
+    cursor:pointer;
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+.add{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+.buy{
+   background-color: white;
+   color: black;
+   margin-left:15px;
+}
+.buy:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+#cross{
+    color: black;
+    margin-left: 287px;
+    font-size: 23px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.active{
+    display: block;
+}
+
+.active-preview{
+    position: fixed;
+    top: 0;left: 0;
+    background-color: rgba(0, 0, 0,0.8);
+    width: 100%;
+    min-height: 100vh;
+}
